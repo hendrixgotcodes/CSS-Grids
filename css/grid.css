@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0;
+    color: white;
+    font-size: 1.4rem;
+}
+
+html, body{
+    height: 100%;
+}
+
+body{
+
+    background-color: blue;
+
+}
+
+aside, section, header, footer, nav, main{
+
+    background-color: rgb(75, 75, 247);
+    border: 1px solid rgba(255,255, 255, 0.3);
+
+}
+
+body{
+    display: grid;
+    grid-template-columns: 10% auto 10%;
+    grid-template-rows: 8% auto 8%;
+
+}
+
+header, footer{
+
+    grid-column-start: 1;
+    grid-column-end: 4;
+
+}
